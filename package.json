@@ -1,0 +1,25 @@
+{
+  "name": "z-modifier",
+  "version": "0.1.0",
+  "description": "Handles BEM-inspired modifier classes on a DOM element.",
+  "main": "modifier.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeeCoder/z-modifier.git"
+  },
+  "keywords": [
+    "modifier",
+    "jQuery",
+    "BEM"
+  ],
+  "author": "Hubert Viktor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZeeCoder/z-modifier/issues"
+  },
+  "homepage": "https://github.com/ZeeCoder/z-modifier#readme",
+  "devDependencies": {
+    "clone": "^1.0.2",
+    "mocha": "^2.2.5"
+  }
+}
