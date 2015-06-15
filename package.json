@@ -1,11 +1,14 @@
 {
   "name": "z-modifier",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Handles BEM-inspired modifier classes on a DOM element.",
-  "main": "modifier.js",
+  "main": "Modifier.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZeeCoder/z-modifier.git"
+  },
+  "scripts": {
+    "test": "mocha test/*test.js"
   },
   "keywords": [
     "modifier",
@@ -19,7 +22,10 @@
   },
   "homepage": "https://github.com/ZeeCoder/z-modifier#readme",
   "devDependencies": {
+    "chai": "^3.0.0",
     "clone": "^1.0.2",
+    "jquery": "^2.1.4",
+    "jsdom": ">= 0.1.23 < 4.0.0",
     "mocha": "^2.2.5"
   }
 }
