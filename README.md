@@ -1,5 +1,6 @@
 # z-modifier
-[![npm vers[![Build Status](https://travis-ci.org/ZeeCoder/z-modifier.svg?branch=master)](https://travis-ci.org/ZeeCoder/z-modifier)ion](https://badge.fury.io/js/z-modifier.svg)](http://badge.fury.io/js/z-modifier)
+[![Build Status](https://travis-ci.org/ZeeCoder/z-modifier.svg?branch=master)](https://travis-ci.org/ZeeCoder/z-modifier)
+[![npm version](https://badge.fury.io/js/z-modifier.svg)](http://badge.fury.io/js/z-modifier)
 
 This module was written to handle modifier classes inspired by the [BEM](http://bem.info) methodology.
 
