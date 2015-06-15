@@ -43,8 +43,5 @@ mod.toggle('modifier');
 // -> Removes the "module--modifier" class.
 ```
 
-## Testing
-Tests are in a work-in-progress state.
-
 ## License
 [MIT](LICENSE)
