@@ -5,9 +5,9 @@ var fs       = require('fs');
 var expect   = require('chai').expect;
 
 describe('Modifier.js', function () {
-    var window, document, body, $, modifier, $module;
+    var window, document, $, modifier, $module;
 
-    beforeEach(function() {
+    beforeEach(function(done) {
         jsdom.env(
             fs.readFileSync(__dirname + '/fixtures/index.html', 'utf-8'),
             function (err, windowObj) {
@@ -16,6 +16,8 @@ describe('Modifier.js', function () {
                 $ = require('jquery')(window);
                 $module = $('#module');
                 modifier = new Modifier($module, 'module');
+
+                done();
             }
         );
     });
