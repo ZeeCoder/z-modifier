@@ -1,6 +1,6 @@
 {
   "name": "z-modifier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Handles BEM-inspired modifier classes on a DOM element.",
   "main": "Modifier.js",
   "repository": {
