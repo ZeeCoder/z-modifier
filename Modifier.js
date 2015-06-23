@@ -15,7 +15,11 @@ Modifier.prototype.set = function(name, value) {
 
     this.removeClassesByPrefix(this.$object, className);
 
-    if (value !== false && value !== undefined) {
+    if (typeof value !== 'boolean' && typeof value !== 'string') {
+        value = true;
+    }
+
+    if (value !== false) {
         className = this.getClassName(name, value);
         this.$object.addClass(className);
     }

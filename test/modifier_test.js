@@ -84,6 +84,11 @@ describe('Modifier.js', function () {
             modifier.set('modifier2', 'value2');
             expect($module[0].className).to.equal('module--modifier1_value1 module--modifier2_value2');
         });
+
+        it('should fall back to a "true" value, if the value given is neither a boolean nor a string', function() {
+            modifier.set('modifier', {something: 'neither boolean nor string'});
+            expect($module[0].className).to.equal('module--modifier');
+        });
     });
 
     describe('#get', function () {
