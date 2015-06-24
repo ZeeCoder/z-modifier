@@ -17,7 +17,7 @@ var Modifier = require('z-modifier');
 
 var mod = new Modifier(
     $('#module'),
-    'module'. // The base class the modifier string will be attached to
+    'module', // The base class the modifier string will be attached to
     '--', // Modifier separator, optional
     '_' // Value separator, optional
 );
